@@ -1,0 +1,7 @@
+/run/initialize
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0 0 0 mm
+/gps/pos/radius 19. mm
+/gps/ang/type iso

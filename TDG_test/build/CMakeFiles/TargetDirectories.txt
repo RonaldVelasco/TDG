@@ -1,8 +1,8 @@
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/install/strip.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/install/local.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/install.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/list_install_components.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/rebuild_cache.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/edit_cache.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/TDG1.dir
-/home/ronaldvelasco/TDG_test/build/CMakeFiles/TDG.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/install/strip.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/install/local.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/install.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/list_install_components.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/rebuild_cache.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/edit_cache.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/TDG1.dir
+/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/TDG.dir

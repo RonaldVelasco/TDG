@@ -137,8 +137,4 @@ void TDGPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   G4double z0 = 0;
   fParticleGun->SetParticlePosition(G4ThreeVector(x0*cm,y0*cm,z0*cm));
 
-  fParticleGun->GeneratePrimaryVertex(anEvent);
-}
-*/
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
+  
