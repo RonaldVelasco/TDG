@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronaldvelasco/TDG_test
+CMAKE_SOURCE_DIR = /home/ronaldvelasco/TDG/TDG_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronaldvelasco/TDG_test/build
+CMAKE_BINARY_DIR = /home/ronaldvelasco/TDG/TDG_test/build
 
 # Utility rule file for TDG1.
 
@@ -81,6 +81,6 @@ CMakeFiles/TDG1.dir/clean:
 .PHONY : CMakeFiles/TDG1.dir/clean
 
 CMakeFiles/TDG1.dir/depend:
-	cd /home/ronaldvelasco/TDG_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldvelasco/TDG_test /home/ronaldvelasco/TDG_test /home/ronaldvelasco/TDG_test/build /home/ronaldvelasco/TDG_test/build /home/ronaldvelasco/TDG_test/build/CMakeFiles/TDG1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ronaldvelasco/TDG/TDG_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldvelasco/TDG/TDG_test /home/ronaldvelasco/TDG/TDG_test /home/ronaldvelasco/TDG/TDG_test/build /home/ronaldvelasco/TDG/TDG_test/build /home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/TDG1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TDG1.dir/depend
 

@@ -112,19 +112,20 @@ void TDGRunAction::EndOfRunAction(const G4Run* run)
   // Run conditions
   //  note: There is no primary generator action object for "master"
   //        run manager for multi-threaded mode.
+  
   const TDGPrimaryGeneratorAction* generatorAction
    = static_cast<const TDGPrimaryGeneratorAction*>
      (G4RunManager::GetRunManager()->GetUserPrimaryGeneratorAction());
   G4String runCondition;
   if (generatorAction)
   {
-    const G4ParticleGun* particleGun = generatorAction->GetParticleGun();
+    const G4GeneralParticleSource* particleGun = generatorAction->GetParticleGun();
     runCondition += particleGun->GetParticleDefinition()->GetParticleName();
     runCondition += " of ";
     G4double particleEnergy = particleGun->GetParticleEnergy();
     runCondition += G4BestUnit(particleEnergy,"Energy");
   }
-        
+      
   // Print
   //  
   if (IsMaster()) {
@@ -148,6 +149,7 @@ void TDGRunAction::EndOfRunAction(const G4Run* run)
      << "------------------------------------------------------------"
      << G4endl
      << G4endl;
+  
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

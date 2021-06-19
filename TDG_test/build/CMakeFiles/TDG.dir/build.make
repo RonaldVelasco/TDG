@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ronaldvelasco/TDG_test
+CMAKE_SOURCE_DIR = /home/ronaldvelasco/TDG/TDG_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ronaldvelasco/TDG_test/build
+CMAKE_BINARY_DIR = /home/ronaldvelasco/TDG/TDG_test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TDG.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/TDG.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/TDG.cc.o: ../TDG.cc
 CMakeFiles/TDG.dir/TDG.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TDG.dir/TDG.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/TDG.cc.o -MF CMakeFiles/TDG.dir/TDG.cc.o.d -o CMakeFiles/TDG.dir/TDG.cc.o -c /home/ronaldvelasco/TDG_test/TDG.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TDG.dir/TDG.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/TDG.cc.o -MF CMakeFiles/TDG.dir/TDG.cc.o.d -o CMakeFiles/TDG.dir/TDG.cc.o -c /home/ronaldvelasco/TDG/TDG_test/TDG.cc
 
 CMakeFiles/TDG.dir/TDG.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/TDG.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/TDG.cc > CMakeFiles/TDG.dir/TDG.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/TDG.cc > CMakeFiles/TDG.dir/TDG.cc.i
 
 CMakeFiles/TDG.dir/TDG.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/TDG.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/TDG.cc -o CMakeFiles/TDG.dir/TDG.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/TDG.cc -o CMakeFiles/TDG.dir/TDG.cc.s
 
 CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o: ../src/TDGActionInitialization.cc
 CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o -MF CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o.d -o CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o -MF CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o.d -o CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGActionInitialization.cc
 
 CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGActionInitialization.cc > CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGActionInitialization.cc > CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.i
 
 CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGActionInitialization.cc -o CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGActionInitialization.cc -o CMakeFiles/TDG.dir/src/TDGActionInitialization.cc.s
 
 CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o: ../src/TDGDetectorConstruction.cc
 CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o -MF CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o -MF CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGDetectorConstruction.cc
 
 CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGDetectorConstruction.cc > CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGDetectorConstruction.cc > CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.i
 
 CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGDetectorConstruction.cc -o CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGDetectorConstruction.cc -o CMakeFiles/TDG.dir/src/TDGDetectorConstruction.cc.s
 
 CMakeFiles/TDG.dir/src/TDGEventAction.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGEventAction.cc.o: ../src/TDGEventAction.cc
 CMakeFiles/TDG.dir/src/TDGEventAction.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TDG.dir/src/TDGEventAction.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGEventAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGEventAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGEventAction.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TDG.dir/src/TDGEventAction.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGEventAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGEventAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGEventAction.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGEventAction.cc
 
 CMakeFiles/TDG.dir/src/TDGEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGEventAction.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGEventAction.cc > CMakeFiles/TDG.dir/src/TDGEventAction.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGEventAction.cc > CMakeFiles/TDG.dir/src/TDGEventAction.cc.i
 
 CMakeFiles/TDG.dir/src/TDGEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGEventAction.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGEventAction.cc -o CMakeFiles/TDG.dir/src/TDGEventAction.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGEventAction.cc -o CMakeFiles/TDG.dir/src/TDGEventAction.cc.s
 
 CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o: ../src/TDGPrimaryGeneratorAction.cc
 CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGPrimaryGeneratorAction.cc
 
 CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGPrimaryGeneratorAction.cc > CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGPrimaryGeneratorAction.cc > CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.i
 
 CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGPrimaryGeneratorAction.cc -o CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGPrimaryGeneratorAction.cc -o CMakeFiles/TDG.dir/src/TDGPrimaryGeneratorAction.cc.s
 
 CMakeFiles/TDG.dir/src/TDGRunAction.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGRunAction.cc.o: ../src/TDGRunAction.cc
 CMakeFiles/TDG.dir/src/TDGRunAction.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TDG.dir/src/TDGRunAction.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGRunAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGRunAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGRunAction.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TDG.dir/src/TDGRunAction.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGRunAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGRunAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGRunAction.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGRunAction.cc
 
 CMakeFiles/TDG.dir/src/TDGRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGRunAction.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGRunAction.cc > CMakeFiles/TDG.dir/src/TDGRunAction.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGRunAction.cc > CMakeFiles/TDG.dir/src/TDGRunAction.cc.i
 
 CMakeFiles/TDG.dir/src/TDGRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGRunAction.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGRunAction.cc -o CMakeFiles/TDG.dir/src/TDGRunAction.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGRunAction.cc -o CMakeFiles/TDG.dir/src/TDGRunAction.cc.s
 
 CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o: CMakeFiles/TDG.dir/flags.make
 CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o: ../src/TDGSteppingAction.cc
 CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o: CMakeFiles/TDG.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o -c /home/ronaldvelasco/TDG_test/src/TDGSteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o -MF CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o.d -o CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.o -c /home/ronaldvelasco/TDG/TDG_test/src/TDGSteppingAction.cc
 
 CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG_test/src/TDGSteppingAction.cc > CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ronaldvelasco/TDG/TDG_test/src/TDGSteppingAction.cc > CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.i
 
 CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG_test/src/TDGSteppingAction.cc -o CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ronaldvelasco/TDG/TDG_test/src/TDGSteppingAction.cc -o CMakeFiles/TDG.dir/src/TDGSteppingAction.cc.s
 
 # Object files for target TDG
 TDG_OBJECTS = \
@@ -254,7 +254,7 @@ TDG: /usr/lib/libG4global.so
 TDG: /usr/lib/libG4clhep.so
 TDG: /usr/lib/libG4ptl.so.0.0.2
 TDG: CMakeFiles/TDG.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronaldvelasco/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TDG"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TDG"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TDG.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +266,6 @@ CMakeFiles/TDG.dir/clean:
 .PHONY : CMakeFiles/TDG.dir/clean
 
 CMakeFiles/TDG.dir/depend:
-	cd /home/ronaldvelasco/TDG_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldvelasco/TDG_test /home/ronaldvelasco/TDG_test /home/ronaldvelasco/TDG_test/build /home/ronaldvelasco/TDG_test/build /home/ronaldvelasco/TDG_test/build/CMakeFiles/TDG.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ronaldvelasco/TDG/TDG_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ronaldvelasco/TDG/TDG_test /home/ronaldvelasco/TDG/TDG_test /home/ronaldvelasco/TDG/TDG_test/build /home/ronaldvelasco/TDG/TDG_test/build /home/ronaldvelasco/TDG/TDG_test/build/CMakeFiles/TDG.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TDG.dir/depend
 
